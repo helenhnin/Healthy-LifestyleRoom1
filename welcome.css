@@ -1,0 +1,225 @@
+        body {
+			background-image: url("welcomeimg/welcomediet.png");
+			background-repeat: no-repeat;
+			background-size: cover;
+			animation-name: colors;
+			animation-duration: 8s;
+			animation-timing-function: linear;
+			animation-iteration-count: infinite;
+			animation-direction: alternate;
+            background-attachment: fixed;
+            font-family: cursive;
+		}
+		@keyframes colors {
+			0% { background-image:url("welcomeimg/yoga.jpg"); }
+			55% { background-image:url("welcomeimg/et.jpg"); }
+			100% { background-image:url("welcomeimg/relaxation.png"); }
+		}
+        .onehunderd_per{
+            float: left;
+            display: block;
+            width: 100%;
+            box-sizing: border-box;
+        }
+        .home{
+            text-decoration: none;
+            color: black;
+        }
+        .link{
+            text-decoration: none;
+            padding-left: 45px;
+            color: black;
+        }
+        .list:hover, .link:hover, .home:hover{
+            text-shadow: -.1em -.1em .1em deepskyblue;
+            color: white;
+        }
+        .nav{
+            list-style-type: none;
+            display: inline-block;
+            float: left;
+        }
+        .list{
+            display: inline-block;
+            padding-right: 10px;
+            color: black;
+            float: left;
+        }
+        .list:hover {
+            font-size: larger;
+            transition-duration: 1s;
+        }
+        .dropdown:hover .table_dropdown{
+            display: block;
+            position: absolute;
+            z-index: 5;
+        }
+        .table_dropdown{
+            display: none;
+            background-color: #F5C282;
+            border-radius: 5px;
+            border: 2px solid black;
+        }
+        .dropdown{
+            display: inline-block;
+            float: left;
+            position: relative;
+        }
+        .padding-left{
+            padding-left: 50px;
+        }
+        .padding-left2{
+            padding-left: 50px;
+            padding-right: 50px;
+        }
+        .image{
+            width: 200px;
+            padding-top: 20px;
+        }
+        .logo{
+            width: 5%;
+            float: left;
+        }
+        .logo:hover{
+            transform: rotate(-360deg);
+            transition-duration: 2s;
+        }
+        .center{
+            text-decoration: none;
+            margin: 0;
+            color: black;
+        }
+         .text{
+            background: linear-gradient(180deg, #F5C282,#03989E);
+            -webkit-background-clip: text;
+            color: transparent; 
+            margin-right: 10%; 
+            font-family: Comic Sans MS;   
+            font-size: 1.5em; 
+        }
+        .slogan{
+            font-family: cursive;
+            font-size: 65px;
+            margin-left: 5%;
+            margin-top: 5%;
+            text-shadow: .1em .1em #F5C282;
+            color: #03989E;
+        }
+        .button{
+            box-sizing: border-box;
+            position: relative;
+            background-color:  #03989E;
+            color: #F5C282;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: larger;
+            letter-spacing: 0.1em;
+            padding: 10px 30px;
+            transition: 0.5s;
+            box-shadow: 0 0 35px lightskyblue;
+            float: left;
+        }
+        .button:hover{
+            background-color: var(--clr);
+            color: var(--clr);
+            letter-spacing: 0.2em;
+            box-shadow: 0 0 35px var(--clr);
+        }
+        .button::before{
+            content: '';
+            position: absolute;
+            inset: 2px;
+            background: #03989E;
+        }
+        span{
+            position: relative;
+            z-index: 1;
+        }
+        .btuuon i{
+            position: absolute;
+            inset: 0;
+            display: inline-block;
+            height: 3px;
+        }
+        .button i::before{
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 80%;
+            width: 10px;
+            height: 10px;
+            background-color:#03989E;
+            transform: translate(-50%) skew(325deg);
+            transform: 0.5s;
+        }
+        .button:hover i::before{
+            width: 20px;
+            left: 20%;
+        }
+        .button i::after{
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 20%;
+            width: 10px;
+            height: 10px;
+            background-color: #03989E;
+            transform: translate(-50%) skew(325deg);
+            transform: 0.5s;
+        }
+        .button:hover i::after{
+            width: 20px;
+            left: 80%;
+        }
+        .hello{
+            float: left;
+            height: 150px;
+            margin-left: 3%;  
+        }
+
+    @media only screen and (max-width: 700px){
+    /*for mobile: */
+    body {
+            background-image: url("welcomeimg/welcomediet.png");
+            background-repeat: no-repeat;
+            background-size: cover;
+            animation-name: colors;
+            animation-duration: 8s;
+            animation-timing-function: linear;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
+            background-attachment: fixed;
+        }
+        @keyframes colors {
+            0% { background-image:url("welcomeimg/phoneimg.png"); }
+            55% { background-image:url("welcomeimg/phonerunning.png"); }
+            100% { background-image:url("welcomeimg/relaxationphone.png"); }
+        }
+        .logo{
+            width: 10%;
+        }
+        .nav{
+            width: 90%;
+            padding: 0;
+            margin-top: 3%;
+        }
+        .table_dropdown{
+            width: 180%;
+        }
+        .padding-left, .padding-left2{
+            padding-left: 10px;
+        }
+        .image{
+            width: 115px;
+        }
+        .twenty_per{
+            width: 26%;
+        }
+        .eighty_per{
+            width: 70%;
+            float: left;
+        }
+        body{
+            font-size: 13px;
+        }
+    }

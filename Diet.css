@@ -1,0 +1,950 @@
+    .onehunderd_per{
+        float: left;
+        display: block;
+        width: 100%;
+        box-sizing: border-box;
+    }
+    .home{
+        text-decoration: none;
+        color: black;
+    }
+    .link{
+        text-decoration: none;
+        padding-left: 45px;
+        color: black;
+    }
+    .nav{
+        list-style-type: none;
+        display: inline-block;
+        float: left;
+    }
+    .list{
+        display: inline-block;
+        padding-right: 10px;
+        color: black;
+        float: left;
+    }
+    .list:hover{
+        font-size: larger;
+        transition-duration: 1s;
+    }
+    .list:hover, .link:hover, .home:hover{
+        text-shadow: -.1em -.1em .1em deepskyblue;
+        color: white;
+    }
+    .dropdown:hover .table_dropdown{
+        display: block;
+        position: absolute;
+        z-index: 5;
+    }
+    .table_dropdown{
+        display: none;
+        background-color: #F5C282;
+        border-radius: 5px;
+        border: 2px solid black;
+    }
+    .dropdown{
+        display: inline-block;
+        float: left;
+        position: relative;
+    }
+    .padding-left{
+        padding-left: 50px;
+    }
+    .padding-left2{
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    .image{
+        width: 200px;
+        padding-top: 20px;
+    }
+    .center{
+        text-decoration: none;
+        margin: 0;
+        color: black;
+    }
+    body{
+        background-image: linear-gradient(to bottom right,#03989E,white,#F5C282);
+        background-attachment: fixed;
+        font-family: Comic Sans MS;
+    }
+    .logo{
+        width: 5%;
+        float: left;
+    }
+    .logo:hover{
+        transform: rotate(-360deg);
+        transition-duration: 2s;
+    }
+    .eighty_per{
+        width: 80%;
+        float: left;
+        display: inline-block;
+        background-color: white;
+    }
+    .container{
+        display: inline-block;
+        clear: left;
+        position: relative;
+        width: 100%;
+        height: 550px;
+    }
+    .outline1{
+        display: inline-block;
+        position: relative;
+        border: 2px solid black;
+        width: 85%;
+        height: 450px;
+        z-index:2;
+        right: 0;
+        left: 5%;
+    }
+    .outline{
+        display: inline-block;
+        left: 10%;
+        top: -9%;
+        position: absolute;
+        border: 2px solid black;
+        width: 75%;
+        height: 550px;
+        z-index: 3;
+    }
+    .mainimg{
+        display: inline-block;
+        position: absolute;
+        width: 86.5%;
+        height: 450px;
+        z-index: 1;
+        right: 8.1%;
+        top: 0;
+    }
+    .quote{
+        display: inline-block;
+        position: absolute;
+        width: 75%;
+        bottom: 0;
+        left: 10%;
+        top: 60%;
+        height: 120px;
+        z-index: 4;
+        text-align: center;
+        font-size: xx-large;
+        font-family: cursive;
+        color: transparent;
+    }
+    .quote:hover{
+        color: black;
+        background-color: orange;
+        opacity: 0.5;
+    }
+    .outline:hover,.outline1:hover{
+        box-shadow: 0 0 20px orange;
+    }
+    .outline1:hover + .outline{
+        box-shadow: 0 0 20px orange;
+    }
+    .container, .mainimg, .outline, .outline1, .quote{
+        box-sizing: border-box;
+    }
+    .twenty_div{
+            padding: 5px;
+    }
+    .twenty_per{
+        width: 18%;
+        float: left;
+        background-color: white;;
+        margin-left: 15px;
+        position: fixed;
+        overflow-y: scroll;
+        height: 400px;
+        right: 0;
+        top: 80px;
+    }
+    .children{
+        width: 250px;
+    }
+    .sixty_img{
+        max-width: 80%;
+        display: block;
+        padding-top: 10px;
+        margin-left: auto;
+        margin-right: auto;
+        box-sizing: border-box;
+    }
+    .twenty_div_img{
+        display: block;
+        max-width: 95%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .sixty_div_img{
+        display: block;
+        max-width: 95%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .diet{
+        width: 90%;
+        margin-right: auto;
+        margin-left: auto;
+        padding-top: 50px;
+    }
+    .title{
+        color: black;
+        -webkit-text-fill-color: white;
+        -webkit-text-stroke-width: 1px;
+        -webkit-text-stroke-color: black;
+        text-align: center;
+    }
+    #diet{
+        width: 800px;
+    }
+    .Nutritious_diet{
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .question_nutrition{
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .type_nutrition{
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .Carbohydrates{
+        width: 45%;
+        margin-left: 15px;
+        float: left;
+    }
+    .Proteins{
+        width: 45%;
+        margin-left: 15px;
+        float: left;
+        height: 359px;
+    }
+    .Fats{
+        width: 45%;
+        margin-left: 15px;
+        float: left;
+    }
+    .Vitamins{
+        width: 45%;
+        margin-left: 15px;
+        float: left;
+        height: 460px;
+    }
+    .Minerals{
+        width: 45%;
+        margin-left: 10px;
+        float: left;
+    }   
+    .Dietary_fiber{
+        width: 45%;
+        margin-left: 15px;
+        float: left;
+        height: 485px;            
+    }
+    #Dietary_fiber{
+        width: 430px;
+    }
+    .Water{
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #Water{
+        width: 650px;
+    }
+    .Impact{
+        width: 95%;
+        margin-left: auto;
+        margin-left: auto;
+    }
+        .adult{
+            width: 45%;
+            float: left;
+            margin-left: 50px;
+        }
+        .children{
+            width: 45%;
+            float: left;
+            height: 530px;
+            margin-left: 30px;
+        }
+        .advantages{
+            width: 95%;
+            margin-left: auto;
+            margin-right: auto;
+            clear: right;
+        }
+        .Weight_Loss{
+            width: 95%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .Improved_Memory{
+            width: 95%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .Deeper_Sleep{
+            width: 95%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .Better_Mood{
+            width: 95%;
+            margin-left: auto;
+            margin-right: auto;           
+        }
+        .title_short_term_long_term{
+            text-align: center;
+        }
+        .long_term{
+            width: 95%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .Heart_Disease_and_Stroke{
+            width: 95%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .text_indent{
+            text-indent: 2em;
+        }
+        .type_Diabetes{
+            width: 55%;
+            margin-left: 10px;
+            float: left;
+        }
+        #type_Diabetes{
+            height: 200px;
+            width: 450px;
+        }
+        .Cancer{
+            width: 40%;
+            margin-left: 10px;
+            float: left;
+            height: 432px;
+            padding-top: 30px;
+        }
+        .Deficits_in_Brain_Function{
+            width: 90%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .consequences{
+            width: 90%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        #Fatigue{
+            width: 580px;
+        }
+        .Getting_ill{
+            width: 45%;
+            margin-left: 30px;
+            float: left;
+        }
+        .Hair_loss{
+            width: 45%;
+            margin-left: 10px;
+            float: left;
+            height: 510px;
+        }
+        .Reproductive_difficulties{
+            width: 90%;
+            margin-left: 15px;
+            float: left;
+            height: 250px;
+        }
+        .Constantly_feeling_cold{
+            float: left;
+            width: 45%;
+            margin-left: 30px;
+            height: 500px;
+        }
+        .Impaired_growth{
+            width: 90%;
+            padding-left: 15px;
+            float: left;
+            height: 250px;
+        }
+        .Skin_problems{
+            width: 45%;
+            padding-left: 30px;
+            float: left;
+            height: 500px;
+        }
+        .Depression{
+            width: 45%;
+            padding-left: 30px;
+            float: left;
+            height: 450px;
+        }
+        .Constipation{
+            width: 47%;
+            padding-left: 30px;
+            float: left;
+            height: 450px;
+        }
+        .why_question{
+            width: 90%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .junk_food{
+            width: 90%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .pros_cons{
+            width: 90%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .Great_Source{
+            width: 45%;
+            float: left;
+            margin-left: 15px;
+            height: 246px;
+        }
+        .Reduces_Risk_of_Cancer{
+            width: 50%;
+            float: left;
+            padding-left: 10px;
+        }
+        .Anti-Inflammatory{
+            width: 48%;
+            float: left;
+            padding-left: 30px;
+            height: 265px;
+        }
+        .Prevents_Constipation{
+            width: 45%;
+            float: left;
+            margin-left: 15px;
+        }
+        .Great_Source{
+            height: 180px;
+        }
+        .Obesity_and_Diabetes{
+            width: 45%;
+            float: left;
+            padding-left: 20px;
+            height: 227px;
+        }
+        .Effect_on_Blood_Pressure{
+            width: 50%;
+            float: left;
+            padding-left: 15px;
+        }
+        .Good_for_Your_Skin{
+            width: 97%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .Improves_Nervous_System{
+            width: 97%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .Disadvantages{
+            width: 90%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .Rice{
+            width: 45%;
+            height: 183px;
+            margin-left: 20px;
+            float: left;
+        }
+        .Arsenic{
+            width: 48%;
+            padding-left: 20px;
+            float: left;
+        }
+        .Increase_Risk{
+            width: 95%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .stay_hydrated{
+            width: 95%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        #stay_hydrated{
+            width: 600px;
+        }
+        .too_much_oily{
+            width: 95%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .digestive_system{
+            width: 45%;
+            padding-left: 15px;
+            float: left;
+            height: 461px;
+        }
+        .Greasy_food{
+            width: 50%;
+            padding-left: 15px;
+            float: left;
+        }
+        .heart_disease_and_diabetes{
+            width: 98%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .diet_of_Myanmar{
+            width: 97%;
+            padding-left: 20px;
+        }
+        #chicken{
+            width: 600px;
+        }
+        #chily{
+            width: 650px;
+        }
+        .glutamate{
+            width: 97%;
+            padding-left: 20px;
+        }
+        .bookmark_style{
+            text-decoration: none;
+            font-size: 0.7em;
+            color: black;
+        }
+        .footer{
+            display: inline-block;
+            width: 100%;
+            border: 1px solid black;
+            bottom: 0;
+            box-sizing: border-box;
+            margin-top: 10px;
+            background-color: white;
+        }
+        .footer_div1{
+            width: 10%;
+            box-sizing: border-box;
+            float: left;
+        }
+        #footer{
+            list-style-type: none;
+        }
+        #footer_img1{
+            width: 25px;
+            padding-left: 8px;
+        }
+        #footer_img2{
+            width: 25px;
+            padding-left: 8px;
+        }
+        #footer_img3{
+            width: 30px;
+            padding-left: 5px;
+        }
+        #footer_img4{
+            width: 40px;
+        }
+        .footer_div2{
+            width: 69%;
+            float: left;
+            height: 156px;
+        }
+        #input{
+        margin-left: 50px;
+        margin-top: 20px;
+        background-color: #F5C282;
+        border-radius: 5px;
+        color: black;
+        }
+        #submit{
+            margin-left: 110px;
+            background-color: #03989E;
+            border: 0px solid black;
+        }
+        .feedback{
+            font-size: 0.7em;
+            text-align: center;
+            margin-top: 30px;
+        }
+        .footer_div3{
+            width: 20%;
+            float: left;
+            height: 156px;
+        }
+        .copy{
+            text-align: center;
+        }
+        @media only screen and (max-width: 1300px){
+            .Proteins{
+                height: 370px;
+            }
+            .adult{
+                width: 45%;
+                margin-left: 15px;
+            }
+            .children{
+                width: 45%;
+                height: 510px;
+            }
+            .Reproductive_difficulties{
+                width: 90%;
+                height: 160px;
+            }
+            .Impaired_growth{
+                width: 90%;
+                height: 160px;
+            }
+            .Skin_problems{
+                width: 45%;
+                float: left;
+            }
+            .Constipation{
+                width: 45%;
+                float: left;
+                height: 450px;
+            }
+            .Obesity_and_Diabetes{
+                width: 97%;
+                padding-left: auto;
+                padding-right: auto;
+                height: 170px;
+            }
+            .Effect_on_Blood_Pressure{
+                width: 90%;
+                margin-left: 20px;
+            }
+            .Good_for_Your_Skin{
+                width: 95%;
+                margin-left: 20px;
+            }
+            .Cancer{
+                height: 455px;
+            }
+            #input{
+                width: 80px;
+                margin-left: 60px;
+                color: #03989E;
+            }
+            #submit{
+                margin-left: 75px;
+                margin-top: 5px;
+            }
+        }              
+        @media only screen and (max-width: 900px){
+            .twenty_per{
+                position: fixed;
+                top: 60px;
+            }
+            .Proteins{
+                width: 40%;
+            }
+            .Vitamins{
+                width: 40%;
+            }
+            .adult{
+                width: 90%;
+                height: 530px;
+            }
+            .children{
+                width: 90%;
+                height: 530px;
+            }
+            .Cancer{
+                height: 565px;
+            }
+            .Impaired_growth{
+                width: 40%;
+                height: 400px;
+            }
+            .Constantly_feeling_cold{
+                width: 40%;
+                height: 400px;
+            }
+            .Skin_problems{
+                width: 40%;
+                height: 500px;
+            }
+            .Constipation{
+                width: 90%;
+                height: 460px;
+            }
+            .Depression{
+                height: 500px;
+            }
+            .Anti-Inflammatory{
+                width: 90%;
+                margin-left: auto;
+                margin-right: auto;
+                height: 250px;
+            }
+            .Great_Source{
+                width: 90%;
+                padding-left: auto;
+                padding-right: auto;
+                height: 150px;
+            }
+            .Reduces_Risk_of_Cancer{
+                width: 90%;
+                padding-left: auto;
+                padding-right: auto;
+            }
+            .Obesity_and_Diabetes{
+                width: 90%;
+                padding-left: auto;
+                padding-right: auto;
+                height: 200px;
+            }
+            .Effect_on_Blood_Pressure{
+                width: 90%;
+                padding-left: auto;
+                padding-right: auto;
+            }
+            .Good_for_Your_Skin{
+                width: 90%;
+                padding-left: auto;
+                padding-right: auto;
+            }
+            .Rice{
+                width: 90%;
+                padding-left: auto;
+                padding-right: auto;
+            }
+            .Improves_Nervous_System{
+                width: 90%;
+                padding-left: auto;
+                padding-right: auto;
+            }
+            .Prevents_Constipation{
+                width: 90%;
+                padding-left: auto;
+                padding-right: auto;
+            }
+            .digestive_system{
+                width: 90%;
+                padding-left: auto;
+                padding-right: auto;
+            }
+            .Greasy_food{
+                width: 90%;
+                height: 461px;
+                padding-left: auto;
+                padding-right: auto;
+            }
+            .footer_div1{
+                width: 15%;
+            }
+            .footer_div2{
+                width: 63%;
+            }
+            .footer_div3{
+                width: 20%;
+            }
+            #input{
+                width: 80px;
+                margin-left: 30px;
+            }
+            #submit{
+                margin-left: 45px;
+                margin-top: 5px;
+            }
+        }       
+        @media only screen and (max-width: 700px){
+            .logo{
+                width: 10%;
+            }
+            .nav{
+                width: 90%;
+                padding: 0;
+                margin-top: 3%;
+            }
+            .container, .mainimg, .outline, .outline1, .quote{
+                box-sizing: border-box;
+            }
+            .quote{
+                font-size: x-large;
+            }
+            .outline{
+                height: 485px;
+                top: -3%;
+            }
+            .table_dropdown{
+                width: 180%;
+            }
+            .padding-left, .padding-left2{
+                padding-left: 10px;
+            }
+            .image{
+                width:100px;
+            }
+            .twenty_per{
+                width: 26%;
+                position: fixed;
+                overflow-y: scroll;
+                height: 400px;
+                right: 0;
+                top: 50px;
+            }
+            .eighty_per{
+                width: 70%;
+                float: left;
+            }
+            body{
+                font-size: 12px;
+            }
+            .Carbohydrates{
+                width: 90%;
+            }
+            .Proteins{
+                width: 90%;
+                height: 250px;
+            }
+            .Fats{
+                width: 90%;
+            }
+            .Vitamins{
+                width: 90%;
+                height: 330px;
+            }
+            .Minerals{
+                width: 90%;
+            }
+            .Dietary_fiber{
+                width: 90%;
+                height: 320px;
+            }
+            .Water{
+                width: 98%;
+                margin-left: auto;
+                margin-right: auto;
+            }
+            .adult{
+                width: 90%;
+                height: 400px;
+            }
+            .children{
+                width: 90%;
+                height: 350px;
+                margin-left: 10px;
+            }
+            .type_Diabetes{
+                width: 90%;
+                height: 460px;
+            }
+            .Cancer{
+                width: 90%;
+                height: 340px;
+                padding-top: 10px;
+            }
+            .Getting_ill{
+                width: 90%;
+            }
+            .Hair_loss{
+                width: 95%;
+                height: 380px;
+                padding-left: 10px;
+            }
+            .Reproductive_difficulties{
+                width: 90%;
+                margin-left: 15px;
+                height: 195px;
+
+            }
+            .Constantly_feeling_cold{
+                width: 90%;
+                height: 350px;
+                padding-left: 10px;
+            }
+            .Impaired_growth{
+                width: 90%;
+                margin-left: auto;
+                margin-right: auto;
+                height: 200px;
+            }
+            .Skin_problems{
+                width: 90%;
+                height: 360px;
+                padding-left: 10px;
+            }
+            .Depression{
+                width: 90%;
+                height: 350px;
+                padding-left: 10px;
+            }
+            .Constipation{
+                width: 90%;
+                height: 350px;
+                padding-left: 10px;
+            }
+            .Anti-Inflammatory{
+                width: 90%;
+                height: 270px;
+            }
+            .Prevents_Constipation{
+                width: 90%;
+            }
+            .Great_Source{
+                width: 90%;
+                height: 160px;
+            }
+            .Reduces_Risk_of_Cancer{
+                width: 90%;
+            }
+            .Obesity_and_Diabetes{
+                width: 90%;
+                height: 240px;
+            }
+            .Effect_on_Blood_Pressure{
+                width: 90%;
+            }
+            .Rice{
+                width: 90%;
+            }
+            .Arsenic{
+                width: 90%;
+            }
+            .digestive_system{
+                width: 93%;
+                height: 335px;
+            }
+            .Greasy_food{
+                width: 90%;
+            }
+            .heart_disease_and_diabetes{
+                width: 90%;
+            }
+            .diet_of_Myanmar{
+                width: 90%;
+            }
+            .glutamate{
+                width: 90%;
+            }
+            .footer_div1{
+                width: 15%;
+            }
+            .footer_div2{
+                width: 53%;
+                padding-left: 40px;
+            }
+            .footer_div3{
+                display: none;
+            }
+            #input{
+                width: 80px;
+                margin-left: 10px;
+            }
+            #submit{
+                margin-left: 30px;
+                margin-top: 5px;
+            }
+        }

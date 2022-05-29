@@ -1,0 +1,702 @@
+.onehunderd_per{
+    float: left;
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+}
+.logo{
+    width: 5%;
+    float: left;
+}
+@keyframes move{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(-360deg);
+    }
+}
+.home{
+    text-decoration: none;
+    color: black;
+}
+.padding-left{
+    padding-left: 50px;
+}
+.center{
+    text-decoration: none;
+    margin: 0;
+    color: black;
+}
+.padding-left2{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.link{
+    text-decoration: none;
+    padding-left: 45px;
+    color: black;
+}
+.nav{
+    list-style-type: none;
+    display: inline-block;
+    float: left;
+}
+.list{
+    display: inline-block;
+    padding-right: 10px;
+    color: black;
+    float: left;
+}
+.list:hover, .link:hover, .home:hover{
+    text-shadow: -.1em -.1em .1em deepskyblue;
+    color: white;
+}
+.dropdown:hover .table_dropdown{
+    display: block;
+    position: absolute;
+    z-index: 5;
+}
+.list:hover{
+    font-size: larger;
+    transition-duration: 1s;
+}
+.table_dropdown{
+    display: none;
+    background-color: #F5C282;
+    border-radius: 5px;
+    border: 2px solid black;
+}
+.button{
+    width: 80px;
+    height: 20px;
+}
+.dropdown{
+    display: inline-block;
+    float: left;
+    position: relative;
+}
+.image{
+    width: 200px;
+    padding-top: 20px;
+}
+body{
+    background-image: linear-gradient(to bottom right,#03989E,white,#F5C282);
+    background-attachment: fixed;
+    font-family: Comic Sans MS;
+}
+.logo:hover{
+    transform: rotate(-360deg);
+    transition-duration: 2s;
+}
+.title{
+    color: black;
+  -webkit-text-fill-color: white;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+  text-align: center;
+}
+.container{
+    display: inline-block;
+    clear: left;
+    position: relative;
+    width: 100%;
+    height: 550px;
+}
+.dietimg{
+    display: inline-block;
+    position: relative;
+    border: 2px solid black;
+    width: 85%;
+    height: 450px;
+    z-index:2;
+    right: 0;
+    left: 5%;
+}
+.outline{
+    display: inline-block;
+    left: 10%;
+    top: -9%;
+    position: absolute;
+    border: 2px solid black;
+    width: 75%;
+    height: 550px;
+    z-index: 3;
+}
+.diet{
+    display: inline-block;
+    position: absolute;
+    width: 86.5%;
+    height: 450px;
+    z-index: 1;
+    right: 8.1%;
+    top: 0;
+}
+.quote{
+    display: inline-block;
+    position: absolute;
+    width: 75%;
+    bottom: 0;
+    left: 10%;
+    top: 60%;
+    height: 120px;
+    z-index: 4;
+    text-align: center;
+    font-size: xx-large;
+    font-family: cursive;
+    color: transparent;
+}
+.quote:hover{
+    color: black;
+    background-color: lightgray;
+    opacity: 0.5;
+}
+.outline:hover,.dietimg:hover{
+    box-shadow: 0 0 20px darkgrey;
+}
+.dietimg:hover + .outline{
+    box-shadow: 0 0 20px darkgrey;
+}
+.container, .dietimg, .outline, .diet, .quote{
+    box-sizing: border-box;
+}
+.eighty_per{
+    width: 80%;
+    float: left;
+    display: inline-block;
+    background-color: white;
+}
+.div1{
+    width: 45%;
+    float: left;
+    margin-left: 50px;
+}
+#overdose{
+    width: 85%;
+    height: 250px;
+}
+.anti_overdose{
+    width: 45%;
+    float: left;
+    margin-left: 20px;
+}
+#anti_overdose{
+    width: 85%;
+    height: 250px;
+}
+.div2{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+#drug{
+    width: 45%;
+}
+.div3{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+#naloxone{
+    width: 45%;
+    height: 300px;
+}
+.div4{
+    width: 45%;
+    float: left;
+    margin-left: 50px;
+}
+#how_to_treat_drug{
+    width: 85%;
+    height: 250px;
+}
+.div5{
+    width: 45%;
+    float: left;
+    margin-left: 20px;
+}
+#side_effects{
+    width: 85%;
+    height: 250px;
+}
+.div6{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+#consequences{
+    width: 45%;
+}
+.div7{
+    width: 65%;
+    margin-left: 350px;
+}
+#someone_drug_overdosing{
+    width: 65%;
+}
+.div8{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+#alcohol_overdose{
+    width: 45%;
+}
+.div9{
+    width: 45%;
+    float: left;
+    margin-left: 50px;
+}
+#how_to_treat_alcohol{
+    width: 85%;
+    height: 250px;
+}
+.div10{
+    width: 45%;
+    height: 730px;
+    float: left;
+    margin-left: 20px;
+}
+#iv_fluid{
+     width: 85%;
+    height: 250px;
+}
+.div11{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+#consequences_alcohol_overdose{
+    width: 45%;
+}
+.div12{
+    width: 45%;
+    margin-left: 350px;
+    margin-right: 300px;  
+}
+.para12{
+    text-align: center;
+}
+#someone_alcohol_overdosing{
+    width: 95%;
+}
+.twenty_div{
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.twenty_per{
+    width: 18%;
+    background-color: white;
+    display: inline-block;
+    margin-left: 15px;
+    position: fixed;
+    overflow-y: scroll;
+    height: 400px;
+    right: 0;
+    top: 80px;
+}
+.bookmark_style{
+    text-decoration: none;
+    font-size: 0.7em;
+    color: black;
+}
+.sixty_img{
+    max-width: 80%;
+    display: block;
+    padding-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+}
+.twenty_div_img{
+    display: block;
+    max-width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.footer{
+    display: inline-block;
+    width: 100%;
+    border: 1px solid black;
+    bottom: 0;
+    box-sizing: border-box;
+    margin-top: 10px;
+    background-color: white;
+}
+.footer_div1{
+    width: 10%;
+    box-sizing: border-box;
+    float: left;
+}
+#footer{
+    list-style-type: none;
+}
+#footer_img1{
+    width: 25px;
+    padding-left: 8px;
+}
+#footer_img2{
+    width: 25px;
+    padding-left: 8px;
+}
+#footer_img3{
+    width: 30px;
+    padding-left: 5px;
+}
+#footer_img4{
+    width: 40px;
+}
+.footer_div2{
+    width: 69%;
+    float: left;
+    height: 156px;
+}
+#input{
+    margin-left: 50px;
+    margin-top: 20px;
+    background-color: #F5C282;
+    border-radius: 5px;
+    color: #F5C282;
+}
+#submit{
+    margin-left: 110px;
+    background-color: #03989E;
+    border: 0px solid black;
+}
+.feedback{
+    font-size: 0.7em;
+    text-align: center;
+    margin-top: 30px;
+}
+.footer_div3{
+    width: 20%;
+    float: left;
+    height: 156px;
+}
+.copy{
+    text-align: center;
+}
+@media only screen and (max-width: 700px){
+    #diet{
+        width: 85%;
+    }
+    .quote{
+        font-size: x-large;
+    }
+    .outline{
+        height: 485px;
+        top: -3%;
+    }
+    span{
+        font-size: smaller;
+    }
+    .onehunderd_per{
+        width: 100%;
+    }
+    .logo{
+        width: 10%;
+    }
+    .nav{
+        width: 90%;
+        padding: 0;
+        margin-top: 3%;
+    }
+    .table_dropdown{
+        width: 180%;
+    }
+    .padding-left, .padding-left2{
+        padding-left: 10px;
+    }
+    .image{
+        width: 115px;
+    }
+    .div1{
+        width: 70%;
+        height: 400px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 30px;
+    }
+    #overdose{
+        width: 80%;
+        height: 200px;
+    }
+    .anti_overdose{
+        width: 70%;
+        height: 430px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 30px;
+    }
+    #anti_overdose{
+        width: 85%;
+        height: 200px;
+    }
+    .div2{
+        width: 70%;
+        margin-left: 5px;
+        padding-left: 25px;
+        text-align: left;
+    }
+    #drug{
+        width: 85%;
+        height: 200px;
+    }
+    .div3{
+        width: 70%;
+        height: 500px;
+        margin-left: 5px;
+        padding-left: 25px;
+        text-align: left;
+    }
+    #naloxone{
+        width: 85%;
+        height: 200px;
+    }
+    .div4{
+        width: 70%;
+        height: 630px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 30px;
+    }
+    #how_to_treat_drug{
+        width: 85%;
+        height: 200px;
+    }
+    .div5{
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 30px;
+    }
+    #side_effects{
+        width: 85%;
+        height: 200px;
+    }
+    .div6{
+        width: 70%;
+        margin-left: 5px;
+        padding-left: 25px;
+        text-align: left;
+    }
+    #consequences{
+        width: 85%;
+        height: 200px;
+    }
+    .div7{
+        width: 70%;
+        margin-left: 5px;
+        padding-left: 25px;
+    }
+    #someone_drug_overdosing{
+        width: 85%;
+        height: 200px;
+    }
+    .div8{
+        width: 70%;
+        margin-left: 5px;
+        padding-left: 25px;
+        text-align: left;
+    }
+    #alcohol_overdose{
+        width: 85%;
+        height: 200px;
+    }
+    .div9{
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 30px;
+    }
+    #how_to_treat_alcohol{
+        width: 85%;
+        height: 200px;
+    }
+    .div10{
+        width: 70%;
+        height: 200px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 30px;
+    }
+    #iv_fluid{
+        width: 85%;
+        height: 200px;
+    }
+    .div11{
+        width: 70%;
+        margin-left: 5px;
+        padding-left: 30px;
+        text-align: left;
+    }
+    #consequences_alcohol_overdose{
+        width: 85%;
+        height: 200px;
+    }
+    .div12{
+        width: 70%;
+        margin-left: 5px;
+        padding-left: 30px;
+        text-align: left;
+    }
+    #someone_alcohol_overdosing{
+        width: 85%;
+        height: 200px;
+    }
+    .twenty_per{
+        width: 26%;
+        position: fixed;
+        overflow-y: scroll;
+        height: 400px;
+        right: 0;
+        top: 50px;
+    }
+    .twenty_per2{
+        display: none;
+    }
+    .footer_div1{
+        width: 15%;
+    }
+    .footer_div2{
+        width: 53%;
+        padding-left: 40px;
+    }
+    .footer_div3{
+        display: none;
+    }
+    #input{
+        width: 80px;
+        margin-left: 10px;
+    }
+    #submit{
+        margin-left: 30px;
+        margin-top: 5px;
+    }
+    body{
+        font-size: 13px;
+    }
+    .twenty_per{
+            width: 26%;
+
+    }
+        .eighty_per{
+            width: 70%;
+            float: left;
+    }
+}
+@media only screen and (max-width: 900px){
+    .eighty_per div{
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 15px;
+        text-align: left;
+    }
+    .eighty_per img{
+        width: 80%;
+        height: 280px;
+    }
+    #div2{
+        width: 90%;
+        margin-left: 5px;
+        padding-left: 15px;
+        text-align: left;
+    }
+    #drug{
+        width: 82%;
+        height: 300px;
+    }
+    #div3{
+        width: 90%;
+        margin-left: 5px;
+        padding-left: 15px;
+        text-align: left;
+    }
+    #naloxone{
+        width: 82%;
+        height: 300px;
+    }
+    #div6{
+        width: 90%;
+        margin-left: 5px;
+        padding-left: 15px;
+        text-align: left;
+    }
+    #consequences{
+        width: 82%;
+        height: 300px;
+    }
+    #div7{
+        width: 90%;
+        margin-left: 5px;
+        padding-left: 15px;
+        text-align: left;
+    }
+    #someone_drug_overdosing{
+        width: 82%;
+        height: 300px;
+    }
+    #div8{
+        width: 90%;
+        margin-left: 5px;
+        padding-left: 15px;
+        text-align: left;
+    }
+    #alcohol_overdose{
+        width: 82%;
+        height: 300px;
+    }
+    #div10{
+        width: 90%;
+        height: 650px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 15px;
+        text-align: left;
+    }
+    #div11{
+        width: 90%;
+        margin-left: 5px;
+        padding-left: 15px;
+        text-align: left;
+    }
+    #consequences_alcohol_overdose{
+        width: 82%;
+        height: 300px;
+    }
+    #div12{
+        width: 90%;
+        margin-left: 5px;
+        padding-left: 15px;
+        text-align: left;
+    }
+    #someone_alcohol_overdosing{
+        width: 82%;
+        height: 300px;
+    }
+    .footer_div1{
+        width: 15%;
+    }
+    .footer_div2{
+        width: 53%;
+    }
+    .footer_div3{
+        width: 20%;
+    }
+    #input{
+        width: 80px;
+        margin-left: 30px;
+    }
+    #submit{
+        margin-left: 45px;
+        margin-top: 5px;
+    }
+}

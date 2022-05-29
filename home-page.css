@@ -1,0 +1,483 @@
+.onehunderd_per{
+	float: left;
+	display: block;
+	width: 100%;
+	box-sizing: border-box;
+}
+.home{
+	text-decoration: none;
+	color: black;
+}
+.link{
+	text-decoration: none;
+	padding-left: 45px;
+	color: black;
+}
+.nav{
+	list-style-type: none;
+	display: inline-block;
+	float: left;
+}
+.list{
+	display: inline-block;
+	padding-right: 10px;
+	color: black;
+	float: left;
+}
+.list:hover{
+	font-size: larger;
+	transition-duration: 1s;
+}
+.list:hover, .link:hover, .home:hover{
+	text-shadow: -.1em -.1em .1em deepskyblue;
+	color: white;
+}
+.dropdown:hover .table_dropdown{
+	display: block;
+	position: absolute;
+	z-index: 5;
+}
+.table_dropdown{
+	display: none;
+	background-color: #F5C282;
+	border-radius: 5px;
+	border: 2px solid black;
+}
+.dropdown{
+	display: inline-block;
+	float: left;
+	position: relative;
+}
+.center{
+    text-decoration: none;
+    margin: 0;
+    color: black;
+}
+.padding-left{
+	padding-left: 50px;
+}
+.padding-left2{
+	padding-left: 50px;
+	padding-right: 50px;
+}
+.image{
+	width: 200px;
+	padding-top: 20px;
+}
+body{
+	background-image: linear-gradient(to bottom right,#03989E,white,#F5C282);
+	background-attachment: fixed;
+	font-family: Comic Sans MS;
+}
+.logo{
+	width: 5%;
+	float: left;
+}
+.logo:hover{
+	transform: rotate(-360deg);
+	transition-duration: 2s;
+}
+.title{
+    color: black;
+  	-webkit-text-fill-color: white;
+  	-webkit-text-stroke-width: 1px;
+  	-webkit-text-stroke-color: black;
+  	text-align: center;
+}
+#healthy-life{
+	width: 95%;
+	box-shadow: lightblue;
+}
+.quote{
+	text-align: center;
+}
+.transbox{
+	margin: 30px;
+	width: 80%;
+	padding: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: white;
+}
+.title{
+	text-align: center;
+}
+.div1{
+	width: 45%;
+	margin-left: 30px;
+	float: left;
+}
+.div2{
+	width: 45%;
+	margin-left: 30px;
+	float: left;
+	height: 560px;
+}
+.div3{
+	width: 45%;
+	margin-left: 30px;
+	float: left;
+}
+.div4{
+	width: 45%;
+	margin-left: 30px;
+	float: left;
+	height: 460px;
+}
+.div5{
+	width: 45%;
+	margin-left: 30px;
+	float: left;
+}
+.div6{
+	width: 45%;
+	margin-left: 30px;
+	float: left;
+	height: 500px;
+}
+.div7{
+	width: 45%;
+	margin-left: 30px;
+	float: left;
+}
+.div8{
+	width: 45%;
+	margin-left: 30px;
+	float: left;
+}
+.div9{
+	width: 45%;
+	margin-left: 30px;
+	float: left;
+}
+.div10{
+	width: 45%;
+	margin-left: 30px;
+	float: left;
+}
+#relax{
+	width: 450px;
+}
+#ex{
+	width: 400px;
+	height: 340px;
+}
+.eighty_div_img{
+  	display: block;
+    width: 90%;
+    max-height: 250px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#healthy-life{
+	width: 45%;
+	height: 250px;
+}
+#health{
+	width: 45%;
+	height: 250px;
+	margin-left: 10px;
+}
+#benefits{
+	width: 45%;
+	height: 250px;
+	margin-left: 10px;
+}
+.tips{
+	color: black;
+ 	-webkit-text-fill-color: white;
+	-webkit-text-stroke-width: 1px;
+	-webkit-text-stroke-color: black;
+	text-align: center;
+}
+.nutrition{
+	width: 45%;
+	float: left;
+	margin-left: 50px;
+	padding: 10px;
+	border-radius: 8px;
+	border: 1px solid black;
+	margin-top: 30px;
+	text-align: center;
+	text-decoration: none;
+	color: black;
+}
+.exercise{
+	width: 45%;
+	float: left;
+	margin-left: 20px;
+	padding: 10px;
+	border-radius: 8px;
+	border: 1px solid black;
+	margin-top: 30px;
+	text-align: center;
+	text-decoration: none;
+	color: black;
+}
+.overdose{
+	width: 45%;
+	float: left;
+	margin-left: 50px;
+	padding: 10px;
+	border-radius: 8px;
+	border: 1px solid black;
+	margin-top: 30px;
+	text-align: center;
+	text-decoration: none;
+	color: black;
+}
+.relaxation{
+	width: 45%;
+	float: left;
+	margin-left: 20px;
+	padding: 10px;
+	border-radius: 8px;
+	border: 1px solid black;
+	margin-top: 30px;
+	text-align: center;
+	text-decoration: none;
+	color: black;
+}
+.footer{
+    display: inline-block;
+    width: 100%;
+    border: 1px solid black;
+    bottom: 0;
+    box-sizing: border-box;
+    margin-top: 10px;
+    background-color: white;
+    text-decoration: none;
+	color: black;
+}
+.footer_div1{
+    width: 10%;
+    box-sizing: border-box;
+    float: left;
+}
+#footer{
+    list-style-type: none;
+}
+#footer_img1{
+    width: 25px;
+    padding-left: 8px;
+}
+#footer_img2{
+    width: 25px;
+    padding-left: 8px;
+}
+#footer_img3{
+    width: 30px;
+    padding-left: 5px;
+}
+#footer_img4{
+    width: 40px;
+}
+.footer_div2{
+    width: 69%;
+    float: left;
+    height: 156px;
+}
+#input{
+    margin-left: 50px;
+    margin-top: 20px;
+    background-color: #F5C282;
+    border-radius: 5px;
+    color: #F5C282;
+}
+#submit{
+    margin-left: 110px;
+    background-color: #03989E;
+    border: 0px solid black;
+}
+.feedback{
+    font-size: 0.7em;
+    text-align: center;
+    margin-top: 30px;
+}
+.footer_div3{
+    width: 20%;
+    float: left;
+    height: 156px;
+}
+.copy{
+    text-align: center;
+}
+ @media only screen and (max-width: 700px){
+    .logo{
+        width: 10%;
+    }
+   	.nav{
+        width: 90%;
+        padding: 0;
+        margin-top: 3%;
+    }
+    .quote{
+    	text-align: center;
+    }
+    .outline{
+        height: 485px;
+        top: -3%;
+    }
+    .table_dropdown{
+        width: 180%;
+    }
+    .padding-left, .padding-left2{
+        padding-left: 10px;
+    }
+    .image{
+        width: 100px;
+    }
+    body{
+        font-size: 13px;
+    }
+    #health{
+    	width: 85%;
+    }
+ 	.div1{
+ 		width: 90%;
+ 		padding-right: 20px;
+ 	}
+ 	.div2{
+ 		width: 90%;
+ 		height: 380px;
+ 	}
+ 	.div3{
+ 		width: 90%;
+ 	}
+ 	.div4{
+ 		width: 90%;
+ 		height: 360px;
+ 	}
+ 	.div5{
+ 		width: 90%;
+ 	}
+ 	.div6{
+ 		width: 90%;
+ 		height: 370px;
+ 	}
+ 	.div7{
+ 		width: 90%;
+ 	}
+ 	.div8{
+ 		width: 90%;
+ 	}
+ 	.div9{
+ 		width: 90%;
+ 	}
+ 	.div10{
+ 		width: 90%;
+ 	}
+ 	#benefits{
+ 		width: 85%;
+ 	}
+ 	.nutrition{
+ 		margin-left: 0px;
+ 	}
+ 	.exercise{
+ 		margin-left: 130px;
+ 		height: 180px;
+ 	}
+ 	#ex{
+ 		width: 85%;
+ 		height: 120px;
+ 	}
+ 	.overdose{
+ 		margin-left: 130px;
+ 	}
+ 	.relaxation{
+ 		margin-left: 130px;
+ 	}
+ 	#relax{
+ 		width: 85%;
+ 		height: 120px;
+ 	}
+ 	.footer_div1{
+		width: 15%;
+	}
+	.footer_div2{
+		width: 53%;
+		padding-left: 40px;
+	}
+	.footer_div3{
+		display: none;
+	}
+	#input{
+		width: 70px;
+		margin-left: 10px;
+	}
+	#submit{
+		margin-left: 30px;
+		margin-top: 5px;
+	}
+	.profile_img{
+    	width: 200px;
+    	height: 300px;
+	}
+	.profile1{
+    	width: 90%;
+    	padding-left: 50px;
+	}
+	.profile2{
+    	width: 90%;
+    	padding-left: 50px;
+	}
+	.profile3{
+    	width: 90%;
+    	padding-left: 50px;
+	}
+}
+@media only screen and (max-width: 1000px){
+	.div1{
+		width: 90%;
+	}
+	.div2{
+		width: 90%;
+	}
+	.div3{
+		width: 90%;
+	}
+	.div4{
+		width: 90%;
+	}
+	.div5{
+		width: 90%;
+	}
+	.div6{
+		width: 90%;
+	}
+	.div7{
+		width: 90%;
+	}
+	.div8{
+		width: 90%;
+	}
+	.div9{
+		width: 90%;
+	}
+	.div10{
+		width: 90%;
+	}
+	.nutrition{
+ 		margin-left: 230px;
+ 	}
+ 	.exercise{
+ 		margin-left: 230px;
+ 		height: 300px;
+ 	}
+ 	#ex{
+ 		width: 85%;
+ 		height: 200px;
+ 	}
+ 	.overdose{
+ 		margin-left: 230px;
+ 	}
+ 	.relaxation{
+ 		margin-left: 230px;
+ 	}
+ 	#relax{
+ 		width: 85%;
+ 	}
+ 	.footer_div3{
+		display: none;
+	}
+}

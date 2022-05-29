@@ -1,0 +1,278 @@
+        .onehunderd_per{
+            float: left;
+            display: block;
+            width: 100%;
+            box-sizing: border-box;
+        }
+        .home{
+            text-decoration: none;
+            color: black;
+        }
+        .link{
+            text-decoration: none;
+            padding-left: 45px;
+            color: black;
+        }
+        .nav{
+            list-style-type: none;
+            display: inline-block;
+            float: left;
+        }
+        .list{
+            display: inline-block;
+            padding-right: 10px;
+            color: black;
+            float: left;
+        }
+        .list:hover{
+            font-size: larger;
+            transition-duration: 1s;
+        }
+        .list:hover, .link:hover, .home:hover{
+            text-shadow: -.1em -.1em .1em deepskyblue;
+            color: white;
+        }
+        .dropdown:hover .table_dropdown{
+            display: block;
+            position: absolute;
+        }
+        .table_dropdown{
+            display: none;
+            background-color: #F5C282;
+            border-radius: 5px;
+            border: 2px solid black;
+        }
+        .dropdown{
+            display: inline-block;
+            float: left;
+            position: relative;
+        }
+        .padding-left{
+            padding-left: 50px;
+        }
+        .padding-left2{
+            padding-left: 50px;
+            padding-right: 50px;
+        }
+        .image{
+            width: 200px;
+            padding-top: 20px;
+        }
+        .center{
+            text-decoration: none;
+            margin: 0;
+            color: black;
+        }
+        body{
+            background-image: linear-gradient(to bottom right,#03989E,white,#F5C282);
+            background-attachment: fixed;
+            font-family: Comic Sans MS;
+        }
+        .logo{
+            width: 5%;
+            float: left;
+        }
+        .logo:hover{
+            transform: rotate(-360deg);
+            transition-duration: 2s;
+        }
+        .footer{
+            display: inline-block;
+            width: 100%;
+            border: 1px solid black;
+            bottom: 0;
+            padding-left: auto;
+            padding-right: auto;
+            margin-bottom: 0;
+            margin-top: 10px;
+            box-sizing: border-box;
+            background-color: white;
+        }
+        .footer_div1{
+            width: 10%;
+            box-sizing: border-box;
+            float: left;
+        }
+        #footer{
+            list-style-type: none;
+        }
+        #footer_img1{
+            width: 25px;
+            padding-left: 8px;
+        }
+        #footer_img2{
+            width: 25px;
+            padding-left: 8px;
+        }
+        #footer_img3{
+            width: 30px;
+            padding-left: 5px;
+        }
+        #footer_img4{
+            width: 40px;
+        }
+        .footer_div2{
+            width: 69%;
+            float: left;
+            height: 156px;
+        }
+        #input{
+            margin-left: 50px;
+            margin-top: 20px;
+            background-color: #F5C282;
+            border-radius: 5px;
+            color: #03989E;
+        }
+        #submit{
+           margin-left: 110px;
+           background-color: #03989E;
+           border: 0px solid black;
+           clear: right;
+        }
+        .feedback{
+            font-size: 0.7em;
+            text-align: center;
+            margin-top: 30px;
+        }
+        .footer_div3{
+            width: 20%;
+            float: left;
+            height: 156px;
+        }
+        .copy{
+            text-align: center;
+        }
+        .table{
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .td{
+            padding: 5px;
+        }
+        .questions{
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .altogether{
+            display: inline-block;
+            width: 100%;
+            background-color: white;
+            padding-bottom: 10px;
+        }
+        .FAQ_button{
+            width: 5%;
+            text-align: center;
+            display: inline-block;
+            background-color: #F5C282;
+            float: right;
+            margin-right: 150px;
+        }
+        a{
+            text-decoration: none;
+            list-style-type: none;
+            color: #03989E;
+        }
+        .clear{
+            display: inline-block;
+            width: 45%;
+            clear: left;
+            margin-left: 10px;
+        }
+        .float{
+            display: inline-block;
+            width: 45%;
+            float: left;
+            margin-left: 10px;
+        }
+@media only screen and (max-width: 1300px){ 
+            #input{
+            width: 80px;
+            margin-left: 60px;
+        }
+            #submit{
+            margin-left: 75px;
+            margin-top: 5px;
+        }
+        .tr{
+            padding-left: 20px;
+        }
+    }
+@media only screen and (max-width: 1000px){
+        .footer_div1{
+            width: 15%;
+        }
+        .footer_div2{
+            width: 63%;
+        }
+        .footer_div3{
+            display: none;
+        }
+        #input{
+            margin-left: 50px;
+            margin-top: 20px;
+            background-color: #F5C282;
+            border-radius: 5px;
+            color: #03989E;
+        }
+        #submit{
+            margin-left: 110px;
+            background-color: #03989E;
+            border: 0px solid black;
+            clear: right;
+        }
+        .image{
+            width: 100px;
+        }
+    }
+@media only screen and (max-width: 700px){
+            .onehunderd_per{
+                width: 100%;
+            }
+            .logo{
+                width: 10%;
+            }
+            .nav{
+                width: 90%;
+                padding: 0;
+                margin-top: 3%;
+            }
+            .table_dropdown{
+                width: 180%;
+            }
+            .padding-left, .padding-left2{
+                padding-left: 10px;
+            }
+            .image{
+                width: 100px;
+            }
+            .footer_div1{
+                width: 15%;
+            }
+            .footer_div2{
+                width: 63%;
+            }
+            .footer_div3{
+                display: none;
+            }
+            #input{
+                width: 80px;
+                margin-left: 10px;
+            }
+            #submit{
+                margin-left: 30px;
+                margin-top: 5px;
+            }
+            body{
+                font-size: 13px;
+            }
+            .table{
+                background-color: white;
+                width: 90%;
+            }
+            .clear, .float{
+                width: 90%;
+            }
+            .FAQ_button{
+                width: 10%;
+            }
+        }
